@@ -5,11 +5,11 @@ This is just an example to show how to develop a complete simple app using Pytho
 
 ## Motivating our challenge
 
-QR codes are handy when you look for something online but unfortunately they are not avaiable and you have to type in URLs on the street. So, why not develop an app to avoid all this typing hustle?
+QR codes are handy but unfortunately they are not always available and you end up having to type in URLs on the street. So, why not develop an app to avoid all this typing hustle?
 
 __"Your mission Dan/Jim, should you choose/decide to accept it,..."__ (1)
 
-Develop an app that receives a picture and lists all the URLs in it. The front end is an app (iPhone or Android) that captures the image with the phone camera and opens a window with a list of candidate URLs. The back end is done in Python3 with an image library (PIL or pillow) and an OCR library (pyocr).
+Develop an app that receives a picture and lists all the URLs in it. The front end is an app (iPhone or Android) that captures the image with the phone camera and opens a window with a list of candidate URLs. The back end is done in Python3 with an image library (PIL or pillow) and an OCR library (Tesseract wrapped in pyocr).
 
 (1) https://en.wikiquote.org/wiki/Mission:_Impossible
 This is how in the Mission Impossible series (aired on TV in 1970s) the recorded messaged challenged the protagonist to accept the mission. After the recording was heard, the tape self-destructed itself in flames... 
